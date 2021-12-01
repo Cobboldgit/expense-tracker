@@ -29,11 +29,11 @@ function Expense({ expense, deleteExpense }) {
                 <button
                   onClick={() => deleteExpense(expense.id)}
                   className="fas fa-trash"
-                ></button>
+                >del</button>
                 <button
                   onClick={() => toggleModal()}
                   className="fas fa-edit"
-                ></button>
+                >edit</button>
               </span>
             </p>
           </div>
